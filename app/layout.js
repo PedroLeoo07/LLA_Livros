@@ -1,9 +1,6 @@
-import "../styles/globals.css";
+import "../app/globals.css";
 			export const metadata = {
-				title: "Livraria",
-				description: "Livraria",
-        keywords: "Livraria",
-        author: "Leonardo Oliveira, Lucas Zani, André Lucca",
+				title: "My First NextJS App",
 			};
 			export default function RootLayout({ children }) {
 				return (
