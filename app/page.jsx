@@ -1,23 +1,20 @@
-import styles from "../styles/Categoria.module.css";
-
-export default function Categoria() {
-  return (
-    <div className={styles.container}>
-      <div className={styles.header}>
-        <h1 className={styles.title}>Categorias Populares</h1>
-        <a href="#" className={styles.verTodas}>Ver todas</a>
-      </div>
-      <div className={styles.categorias}>
-        <div className={styles.categoria}><span>🚀</span> Ficção Científica</div>
-        <div className={styles.categoria}><span>💕😍</span> Romance</div>
-        <div className={styles.categoria}><span>👨🏼‍🎨</span> Biografia</div>
-        <div className={styles.categoria}><span>💻</span> Tecnologia</div>
-        <div className={styles.categoria}><span>🧙‍♂️</span> Fantasia</div>
-        <div className={styles.categoria}><span>📜</span> História</div>
-        <div className={styles.categoria}><span>🌱</span> Autoajuda</div>
-        <div className={styles.categoria}><span>🔍</span> Mistério</div>
-      </div>
-    </div>
-  );
+export default function Header() {
+    return (
+        <div>
+            <header style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', padding: '10px', backgroundColor: '#f4f4f4' }}>
+                <h1>LivrariaLLA</h1>
+                <input 
+                    type="text" 
+                    placeholder="Pesquisar" 
+                    style={{ padding: '5px', fontSize: '16px', width: '200px', borderRadius: '15px', border: '10px' }} 
+                />
+                <nav style={{ display: 'flex', justifyContent: 'center', gap: '20px', padding: '10px', backgroundColor: '#f4f4f4' }}>
+                <a href="#inicio" style={{ textDecoration: 'none', color: '#333' }}>Início</a>
+                <a href="#destaque" style={{ textDecoration: 'none', color: '#333' }}>Destaque da Semana</a>
+                <a href="#categorias" style={{ textDecoration: 'none', color: '#333' }}>Categorias</a>
+            </nav>
+            </header>
+        </div>
+    );
 }
 
