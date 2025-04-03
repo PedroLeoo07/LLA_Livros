@@ -1,6 +1,6 @@
-import styles from "@/styles/card.module.css"
+import styles from "@/styles/lancamento.module.css"
 
-export default function CardBook({image, title, author, stars, principal_gender, secondary_gender, price}){
+export default function DestaqueList({image, title, author, stars, principal_gender, secondary_gender, price}){
     return(
         <li>
             <div className={styles.card_book}>

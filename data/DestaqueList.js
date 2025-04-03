@@ -1,4 +1,4 @@
-export const livros = [
+export const destaqueLivros = [
     {
         link:"#",
         image:"https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTy057l2yYOuUP-eFEl3VONNhEL6lVgll448zN9T80Ols-PCsZcqNyB_iRau4vSKpsRi8_VXX7UjQd3LGI1xZRgWcDNnZyaTwKjG34HD3P0sD1krI1RJN7Gtg&usqp=CAc",
