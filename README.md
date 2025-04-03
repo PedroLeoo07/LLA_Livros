@@ -60,6 +60,7 @@ Acesse a aplicação em [localhost:3000](http://localhost:3000).
 5. Crie um Pull Request para o repositório original.
 
 ## Captura de Tela 🎨
+<img src="images/logo.png" alt="Logo do Projeto" width="200">
 
 ## Autores 👨🏼‍💻
 **Leonardo Oliveira**
