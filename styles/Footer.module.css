@@ -36,9 +36,11 @@
 .footer nav a {
     text-decoration: none;
     color: #ffffff;
-    margin-right: 15px;
+    margin-bottom: 15px;
     font-size: 1rem;
-    display: inline-block;
+    display: block;
+    text-align: left;
+    width: 100%;
 }
 
 .footer nav a:hover {
@@ -58,3 +60,34 @@
     color: #ffffff;
 }
 
+.navItem {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 20px;
+}
+
+.navItem a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+    transition: color 0.3s ease;
+}
+
+.navItem a:hover {
+    color: #1e00ff;
+}
+
+.navSpacing {
+    height: 10px;
+    visibility: visible;
+    opacity: 0;
+}
+
+.texto {
+    color: #ffffff;
+    margin-top: 10px;
+    text-align: center;
+}

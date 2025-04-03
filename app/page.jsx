@@ -9,6 +9,11 @@ import Card4 from "../components/Card4.jsx"
 export default function Home() {
     return (
         <div>
+            <head>
+            <link rel="icon" type="public/img" href="Favicon.png" />
+
+
+            </head>
         <Header/>
         <Banner1/>
         <Container title="Destaque" data={destaqueLivros} />
@@ -19,4 +24,3 @@ export default function Home() {
 
     )
 }
-
