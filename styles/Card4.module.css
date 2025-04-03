@@ -2,37 +2,57 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    background: linear-gradient(to right, #38a169, #48bb78);
+    height: 80vh;
+    width: 100%;
+    margin: 0;  
+    margin-top: 8vh;
+    margin-bottom: auto;
+    background: linear-gradient(to right, #7d93f5
+    , #3e61bc
+    );
   }
   
   .div2 {
     text-align: center;
     max-width: 500px;
     padding: 2rem;
-    background: rgba(255, 255, 255, 0.1);
+    background-color: #2950a9;
     backdrop-filter: blur(10px);
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
   }
   
   .h2 {
-    color: white;
+    color: rgb(255, 255, 255);
     font-size: 1.8rem;
     font-weight: bold;
+    margin-bottom: auto;
+    margin-top: 1px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    line-height: 1.2;
+    text-align: center;
+    padding: 1rem;
   }
   
   .p {
     color: white;
     margin-bottom: 1rem;
+    font-size: 1.1rem;  
+    text-align: center;
+    text-transform: lowercase;
+    letter-spacing: 1px;
+    line-height: 1.0;
+
   }
   
   .div3 {
     display: flex;
     align-items: center;
-    background: white;
+    background: rgb(255, 255, 255);
     border-radius: 8px;
     overflow: hidden;
+    
   }
   
   .input {
@@ -43,7 +63,7 @@
   }
   
   .button {
-    background: #ff4f7c;
+    background: #00b3ff;
     color: white;
     padding: 12px 16px;
     font-weight: bold;
@@ -53,6 +73,7 @@
   }
   
   .button:hover {
-    background: #e0446b;
+    background: #2950a9
+    ;
   }
   
