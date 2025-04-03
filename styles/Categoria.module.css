@@ -19,13 +19,22 @@
   
   .verTodas {
     font-size: 14px;
-    color: #0c0c0c;
+    color:  #7d93f5;
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
   }
   
   .verTodas:hover {
     text-decoration: underline;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    text-decoration: none;
+    color: #7d93f5;
+    transition: all 0.3s ease; 
+    cursor: pointer;
+    
   }
   
   .categorias {

@@ -40,14 +40,15 @@
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
     padding: 1rem;
-    height: 200px;
-    width: 200px;
+    height: 5rem;
+    width: 10rem;
     margin-bottom: 2rem;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 1rem;
     left: 50%;
+    color: white;
 }
 
   
@@ -58,10 +59,10 @@
 
   .card:hover {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    transition: all 0.3s ease;
+    transition: all 0.2s ease-in-out;
     cursor: pointer;
     background-color: #5372cf;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-    padding: 2rem;
+    padding: 1rem;
   } 
