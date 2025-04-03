@@ -1,5 +1,5 @@
 import styles from "@/styles/container.module.css"
-import CardBook from "./Detaques"
+import CardBook from "./Destaques"
 
 export default function Container({title, data, cardClassName}){
     return(

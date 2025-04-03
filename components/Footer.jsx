@@ -14,7 +14,7 @@ export default function Footer() {
                     <a href="#destaque">Destaques da Semana</a>
                     <a href="#categorias">Categorias</a>
                     <a href="#Lancamentos">Lançamentos</a>
-                </nav>
+                </nav>  
         </footer>
     );
 }
