@@ -1,0 +1,46 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #7d93f5;
+    border-top: 1px solid #ddd;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.footer div p:first-child {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.footer div p:last-child {
+    font-size: 1rem;
+    color: #ffffff;
+}
+
+.footer nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer nav a {
+    text-decoration: none;
+    color: #00ffff;
+    margin-right: 15px;
+    font-size: 1rem;
+    display: inline-block;
+}
+
+.footer nav a:hover {
+    text-decoration: underline;
+}
