@@ -2,7 +2,7 @@
 
 Este é um projeto de uma livraria virtual desenvolvido com Next.js e React, voltado para a construção de interfaces modernas e dinâmicas.
 
-## Tecnologias utilizadas 👨🏼🚀
+## Tecnologias utilizadas 🚀
 
 - React - Biblioteca para criação de interfaces de usuário
 - Next.js -Framework para React com suporte a SSR e SSG
