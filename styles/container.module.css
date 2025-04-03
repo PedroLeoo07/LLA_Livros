@@ -1,0 +1,20 @@
+.section {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.08);
+    margin: 1rem 5rem;
+}
+
+.title{
+    color: #6882e2;
+    font-size: x-large;
+}
+
+.list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 35px;
+    justify-content: center;
+    padding: 1rem 0;
+}

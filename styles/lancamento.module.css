@@ -1,0 +1,65 @@
+.card_book{
+    border-color: black;
+    border-radius: 8px;
+    background-color: rgb(255, 255, 255);
+}
+
+.image {
+    width: 30vh;
+    height: 30vh;
+}
+
+.div_main{
+    margin-left: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    text-align: left;
+    width: 30vh;
+    height: 30vh;
+    gap: 1rem;
+}
+
+.title{
+    font-size: medium;
+}
+
+.author{
+    font-size: small;
+    color: rgba(0, 0, 0, 0.384);
+}
+
+.genders{
+    display: flex;
+    gap: 1rem;
+}
+
+.gender{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.21);
+    border-radius: 20px;
+}
+
+.principal_gender{
+    font-size: x-small;
+    margin: 5px;
+}
+
+.stars{
+    font-size: medium;
+}
+
+.prices{
+    display: flex;
+    justify-content: space-between;
+}
+
+.price{
+    font-size: small;
+    color: #7d93f5;
+}
+
+.emotes{
+    font-size: medium;
+    margin-right: 1rem;
+}
