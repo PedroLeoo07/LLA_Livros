@@ -4,8 +4,9 @@ export default function Footer() {
     return (
         <footer className={styles.footer}>
                 <div>
-                    <p>LivrariaLLA 📚</p>
-                    <p>Bem-vindo à LivrariaLLA, onde você encontra os melhores livros!</p>
+                    <h1 className={(styles.h1)}>LivrariaLLA 📚</h1>
+                    <p className={(styles.p)}>Bem-vindo à LivrariaLLA</p>
+                    <p>onde você encontra os melhores livros!</p>
                 </div>
 
                 <nav>

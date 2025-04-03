@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     padding: 20px;
-    background-color: #7d93f5;
+    background: linear-gradient(90deg, #2950a9, #7d93f5);
     border-top: 1px solid #ddd;
     position: absolute;
     bottom: 0;
@@ -35,7 +35,7 @@
 
 .footer nav a {
     text-decoration: none;
-    color: #00ffff;
+    color: #ffffff;
     margin-right: 15px;
     font-size: 1rem;
     display: inline-block;
@@ -44,3 +44,17 @@
 .footer nav a:hover {
     text-decoration: underline;
 }
+
+.h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+    color: #ffffff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+}
+
+.p {
+    font-size: 1em;
+    margin: 0.67em 0;
+    color: #ffffff;
+}
+
