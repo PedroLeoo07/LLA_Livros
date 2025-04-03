@@ -1,0 +1,37 @@
+.div12 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    width: 100%;
+    margin: 0;  
+    margin-top: 8vh;
+    margin-bottom: auto;
+    background: linear-gradient(#2950a9 , #5372cf
+
+    );
+  }
+
+  .h22 {
+    color: rgb(255, 255, 255);
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: auto;
+    margin-top: 1px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    line-height: 1.2;
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  .p2 {
+    color: white;
+    margin-bottom: 1rem;
+    font-size: 1.1rem;  
+    text-align: center;
+    text-transform: lowercase;
+    letter-spacing: 1px;
+    line-height: 1.0;
+
+  }

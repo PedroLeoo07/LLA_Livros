@@ -1,3 +1,4 @@
+
 import styles from "../styles/Footer.module.css";
 
 export default function Footer() {
@@ -16,3 +17,6 @@ export default function Footer() {
         </footer>
     );
 }
+
+import styles from "../styles/Home.module.css";
+
